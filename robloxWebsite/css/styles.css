@@ -1,0 +1,227 @@
+/* CSS Document */
+/*Hannah O'Shea, 1/7/2024
+File Name: styles.css */
+
+
+/*Font import */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@600&display=swap');
+
+
+
+/* CSS Reset */
+
+head, title, body, nav,  ul, li, main, footer, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	border: 0; 
+}
+
+
+/* HEADER RULES */
+#hero {
+	display: block;
+	max-width: 100%;
+	max-height:100%;
+	padding: 0 0 56px 0;
+}
+
+header {
+	background-image: url("../index_pic.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+
+h1, h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.4em;
+	font-family: 'Josefin Sans', 'Fira Sans', 'sans serif'; 
+	color: #B41E21;
+}
+
+h4, h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 5.0em;
+	font-family: 'Josefin Sans', 'Fira Sans', 'sans serif'; 
+	
+}
+
+header h3 {
+	position: absolute;
+	top: 250px;
+	right: 15%;
+}
+/* Navigation rules */
+nav {
+	color: #FFFFFF;
+	width: 100%;
+	margin: 0;
+	font-weight: bold;
+	font-family: Fira Sans, Josefin Sans, 'sans serif';
+	background:#345A3A;
+	display: inline-block;
+}
+
+nav li a:hover {
+	color: #BFE4B7;
+	background: #23352C;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	padding: 0 2px 0 2px;
+	
+}
+nav li {
+	display: inline-block;
+	font-size: 2em;
+}
+
+nav li a {
+	text-decoration: none; 
+	color: #FFFFFF;
+	padding: 0.2em 0.5em;
+}
+
+/*End Navigation Rules */
+
+/* MAIN RULES */
+
+main img {
+	max-width: 40%;
+	max-height: 35%;
+	float: right;
+	margin: 2%;
+	border: 4px dashed #162216;
+}
+
+h3 {
+	padding-top: 5px;
+}
+
+h4 {
+	border: 10px double #1D2C25;
+	border-radius: 45px 45px 45px 45px;
+}
+
+#intro {
+	font-size: 1.3em;
+	padding: 4px 2px 4px 2px;
+}
+
+
+p { 
+    font-size: 1.6em;
+	text-align: justify;
+	font-family: Josefin Sans, Fira Sans, 'sans serif'; 
+
+}
+
+main p {
+	display: block;
+	background:#669B60;
+}
+
+body {
+	background: #4A7543;
+}
+/*End Main rules */
+/* Image rules */
+
+#studio {
+	max-width: 325px;
+	max-height: 25%;
+}
+
+
+
+/* FORM RULES */
+
+form {
+	background:#59625A;
+	color: #BFC4BE;
+	border-radius: 35px 35px 35px 35px;
+}
+
+form img {
+	padding: 2%; 
+	width: 450px;
+	height: 500px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+blockquote {
+	font-size: 7em;
+	font-family:Josefin Sans, Fira Sans, 'sans serif';
+	
+}
+#container {
+	width: 80%;
+	
+}
+table {
+	width: 50%;
+}
+
+
+td img {
+	max-width: 550px;
+	max-height: 600px;
+}
+
+
+td { 
+
+	padding: 10px 0px;
+	
+}
+
+label {
+	padding: 0 25px; 
+	font-size: 2em; 
+	font-weight: bold;
+	font-family:Josefin Sans, Fira Sans, 'sans serif';
+}
+
+input {
+	height: 3em;
+	width: 20em;
+	border-radius: 25px;
+	padding-left: 25px; 
+	padding-right: 25px;
+	font-size: 1.3em;
+	font-weight: bold;
+	background: #6D9369;
+	color: #181E14;
+	border: 5px double #1D2420;
+	
+}
+
+
+.frmButton {
+	
+	margin-left: 15%;
+	width: 10em;
+	background-color: #84A8B0;
+}
+
+.frmButton:hover {
+	background-color: #578791;
+}
+
+
+
+/* Footer Rules */
+
+footer p {
+	font-size: 0.75em;
+	text-align: center; 
+	color: #000000;
+}
